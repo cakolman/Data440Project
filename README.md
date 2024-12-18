@@ -1,7 +1,7 @@
 # Restaurant Picker for the Indecisive
 
 1. If the data (csv located in this respository) is downloaded to the same place as the function is being run from, the function will have no trouble reading that data in since it is hard coded in the fuction as if the csv is in the same place. If the csv is located elsewhere, just make sure to specify data = the path to your file in choose_rest()
-2. choose_rest() with no arguments specified, generating a random result is the default when running the main py
+2. choose_rest() with no arguments specified, generating a random result is the default when running main
 3. from main import choose_rest
 4. To run the function, specify any number of the optional arguments, or none at all for a random result. If an open restaurant is desired, make sure to input both day and time otherwise the code will run on the full dataset and could result in a closed restaurant being returned.
 
